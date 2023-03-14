@@ -5,72 +5,71 @@ import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/add/1.png";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
+import AddImage1 from "../../assets/img1.png";
+import AddImage2 from "../../assets/img2.png";
+import AddImage3 from "../../assets/img5.png";
+import AddImage4 from "../../assets/img3.png";
 
 export default function Services() {
   return (
     <Wrapper id="services">
-      <div className="lightBg" style={{ padding: "50px 0" }}>
+      {/* <div className="lightBg" style={{ padding: "50px 0" }}>
         <div className="container">
           <ClientSlider />
         </div>
-      </div>
+      </div> */}
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
+            <h1 className="font40 extraBold">Fitur Terbaik Kami</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            Dengan menggunakan platform kami, perumahan anda akan memiliki
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              manajemen yang baik dan terpenuhi segala kebutuhannya.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Graphic Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                title="Daftar Warga"
+                subtitle="Anda bisa mencatat daftar Warga Komplek Anda. Dengan begitu, Anda dapat mengenal semua warga meskipun Anda adalah warga baru"
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="Web Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                title="Mengelola Keuangan Perumahan Anda"
+                subtitle="Memudahkan warga untuk membayar iuran dengan QRIS, dilengkapi dengan fitur laporan keuangan dan fitur pengingat pembayaran iuran."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
-                title="Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                title="Papan Pengumuman Digital"
+                subtitle="Untuk memudahkan memberikan pengumuman kepada semua Warga Anda. Sehingga Pengumuman yang ada tidak mudah terlewat seperti di group chat. "
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="Print" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
+              <ServiceBox icon="printer" title="E-voting" subtitle="Fitur E-voting untuk bersama-sama memutuskan suatu program atau kegiatan yang membuat lingkungan Anda lebih baik, dan semua hasilnya akan tersimpan." />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>
-        <div className="lightBg">
+        <div className="whiteBg">
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
-                <h4 className="font15 semiBold">A few words about company</h4>
-                <h2 className="font40 extraBold">A Study of Creativity</h2>
+                <h4 className="font15 semiBold">Beberapa Kata Tentang KitaWarga</h4>
+                <h2 className="font40 extraBold">Membantu Sesama</h2>
                 <p className="font12">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                  diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                Di era digital dan globalisasi kita sebagai warga di lingkungan harus saling membantu sesama dan mebangun lingkungan kearah yang lebih baik, kami hadir untuk membantu dalam segala kebutuhan untuk mengakomodir kebutuhan tersebut.
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
+                    <FullButton title="Mulai" action={() => alert("clicked")} />
                   </div>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                    <FullButton title="Kontak kami" action={() => alert("clicked")} border />
                   </div>
                 </ButtonsRow>
               </AddLeft>

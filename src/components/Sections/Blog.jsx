@@ -8,7 +8,7 @@ import TestimonialSlider from "../Elements/TestimonialSlider";
 export default function Blog() {
   return (
     <Wrapper id="blog">
-      <div className="whiteBg">
+      {/* <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Blog Stories</h1>
@@ -82,15 +82,15 @@ export default function Blog() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="lightBg" style={{padding: '50px 0'}}>
+      </div> */}
+      <div className="whiteBg" style={{padding: '50px 0'}}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">What They Say?</h1>
+            <h1 className="font40 extraBold">Kata Mereka?</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            KitaWarga Mengumpulkan beberapa opini tentang fitur yang akan
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              disediakan oleh KitaWarga kedepannya.
             </p>
           </HeaderInfo>
           <TestimonialSlider />

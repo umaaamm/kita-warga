@@ -33,11 +33,23 @@ export default function TestimonialSlider() {
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="Dengan fitur KitaWarga kita bisa mengatur keuangan komplek ter-otomasi dan memiliki rekam jejak yang jelas."
+            author="Perumahan PJKA, Rawamangun"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
+          <TestimonialBox
+            text="Kami berharap dengan hadirnya KitaWarga akan membuat transparansi manajemen keuangan warga kami."
+            author="New Diamond, Serua"
+          />
+        </LogoWrapper>
+        <LogoWrapper className="flexCenter">
+          <TestimonialBox
+            text="KitaWarga mengakomodasi Pembayaran IPL via QRIS kita bisa bayar dimanapun dengan bank & wallet apapun tanpa adanya biaya transfer."
+            author="Perumahan Unilever, Meruya"
+          />
+        </LogoWrapper>
+        {/* <LogoWrapper className="flexCenter">
           <TestimonialBox
             text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
             author="Ralph Waldo Emerson"
@@ -54,19 +66,7 @@ export default function TestimonialSlider() {
             text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
             author="Ralph Waldo Emerson"
           />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
+        </LogoWrapper> */}
       </Slider>
     </div>
   );
