@@ -1,8 +1,17 @@
 {
   "files": {
     "main.css": "/kita-warga/static/css/main.c6f6981a.css",
-    "main.js": "/kita-warga/static/js/main.dc1a6b19.js",
+    "main.js": "/kita-warga/static/js/main.f96b9b02.js",
     "static/js/787.5bfc62ba.chunk.js": "/kita-warga/static/js/787.5bfc62ba.chunk.js",
+    "static/media/imageDashboard.png": "/kita-warga/static/media/imageDashboard.7b8a4696c5e9c392fd33.png",
+    "static/media/img4.png": "/kita-warga/static/media/img4.d05efda575f410b7b5e0.png",
+    "static/media/img1.png": "/kita-warga/static/media/img1.327c51ef3fda5675b0ab.png",
+    "static/media/gambardimas.jpeg": "/kita-warga/static/media/gambardimas.ddc65f5d25eb72bb0454.jpeg",
+    "static/media/img2.png": "/kita-warga/static/media/img2.8d5af98c7a8482109027.png",
+    "static/media/gambarumam.jpeg": "/kita-warga/static/media/gambarumam.bc1d7221c7bcb09bbbfe.jpeg",
+    "static/media/img3.png": "/kita-warga/static/media/img3.0e4465c01282d6deb4e4.png",
+    "static/media/img5.png": "/kita-warga/static/media/img5.1201ab13b75d37ebb67d.png",
+    "static/media/gambarf.jpeg": "/kita-warga/static/media/gambarf.9e6942d7a3d53c4b8775.jpeg",
     "static/media/logo02.svg": "/kita-warga/static/media/logo02.ef3dc4768d89bf758521d844dc1406e2.svg",
     "static/media/logo01.svg": "/kita-warga/static/media/logo01.f0f3765fa14836d794809c38f220dbb8.svg",
     "static/media/logo03.svg": "/kita-warga/static/media/logo03.ed39a486d651c4499e1cc1e7717dfc41.svg",
@@ -15,11 +24,11 @@
     "static/media/slick.woff": "/kita-warga/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/kita-warga/index.html",
     "main.c6f6981a.css.map": "/kita-warga/static/css/main.c6f6981a.css.map",
-    "main.dc1a6b19.js.map": "/kita-warga/static/js/main.dc1a6b19.js.map",
+    "main.f96b9b02.js.map": "/kita-warga/static/js/main.f96b9b02.js.map",
     "787.5bfc62ba.chunk.js.map": "/kita-warga/static/js/787.5bfc62ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6f6981a.css",
-    "static/js/main.dc1a6b19.js"
+    "static/js/main.f96b9b02.js"
   ]
 }
