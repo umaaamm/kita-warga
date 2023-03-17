@@ -6,18 +6,21 @@ import FullButton from "../Buttons/FullButton";
 import HeaderImage from "../../assets/imageDashboard.png";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
+import { Link } from "react-scroll";
 
 export default function Header() {
   return (
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">Semua Kebutuhan Perumahan dalam 1 Platform.</h1>
+          <h1 className="extraBold font60">Semua Kebutuhan Perumahan dalam satu Platform.</h1>
           <HeaderP className="font13 semiBold">
           KitaWarga adalah sebuah platform untuk pengurus dan warga dalam mengelola lingkungan warga.
           </HeaderP>
           <BtnWrapper>
+            <Link to="contact" spy={true} smooth={true} offset={-80}>
             <FullButton title="Mulai" />
+              </Link>
           </BtnWrapper>
         </div>
       </LeftSide>

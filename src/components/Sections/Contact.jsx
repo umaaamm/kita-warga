@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 // Assets
 import ContactImg1 from "../../assets/gambarumam.jpeg";
@@ -6,6 +6,20 @@ import ContactImg2 from "../../assets/gambardimas.jpeg";
 import ContactImg3 from "../../assets/gambarf.jpeg";
 
 export default function Contact() {
+
+  const [nama, setNama] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+
+let noHp = "+6282299256420"
+  const sendWA = () => {
+    let url = `https://web.whatsapp.com/send?phone=${noHp}`;
+
+    let message = nama + " - " +email +" - " +subject;
+      url += `&text=${encodeURI(message)}&app_absent=0`;
+      window.open(url);
+  }
+
   return (
     <Wrapper id="contact">
       <div className="lightBg">
@@ -21,16 +35,16 @@ export default function Contact() {
           <div className="row" style={{ paddingBottom: "30px" }}>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <Form>
-                <label className="font13">First name:</label>
-                <input type="text" id="fname" name="fname" className="font20 extraBold" />
+                <label className="font13">Nama Lengkap:</label>
+                <input type="text" id="fname" name="fname" className="font20 extraBold" onChange={(evt) => { setNama(evt.target.value) }} />
                 <label className="font13">Email:</label>
-                <input type="text" id="email" name="email" className="font20 extraBold" />
+                <input type="text" id="email" name="email" className="font20 extraBold"  onChange={(evt) => { setEmail(evt.target.value) }} />
                 <label className="font13">Subject:</label>
-                <input type="text" id="subject" name="subject" className="font20 extraBold" />
-                <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
+                <input type="text" id="subject" name="subject" className="font20 extraBold"  onChange={(evt) => { setSubject(evt.target.value) }}/>
+                {/* <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" /> */}
               </Form>
               <SumbitWrapper className="flex">
-                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
+                <ButtonInput onClick={(e)=> {sendWA(e)}} type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
               </SumbitWrapper>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
@@ -85,15 +99,15 @@ const Form = styled.form`
   }
 `;
 const ButtonInput = styled.input`
-  border: 1px solid #7620ff;
-  background-color: #7620ff;
+  border: 1px solid #F2B300;
+  background-color: #F2B300;
   width: 100%;
   padding: 15px;
   outline: none;
   color: #fff;
   :hover {
     background-color: #580cd2;
-    border: 1px solid #7620ff;
+    border: 1px solid #580cd2;
     color: #fff;
   }
   @media (max-width: 991px) {

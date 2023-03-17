@@ -102,11 +102,13 @@ export default function Projects() {
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Lokasi" action={() => alert("clicked")} />
+                 
+                  <a href="https://www.google.com/maps/search/Jl.+KH+Wahid+Hasyim+no.+33+Rt%2Frw.+004%2F004+Jurang+Mangu+Timur,+Pondok+Aren,+Tangerang+Selatan,+Banten+15222./@-6.2461473,106.7371446,17z" target={"_blank"}> <FullButton title="Lokasi" action={()=>{}} /></a>
+                  
                 </div>
-                <div style={{ width: "190px", marginLeft: "15px" }}>
-                  <FullButton title="Kontak Kami" action={() => alert("clicked")} border />
-                </div>
+                {/* <div style={{ width: "190px", marginLeft: "15px" }}>
+                  <FullButton title="Kontak Kami" action={() => {}} border />
+                </div> */}
               </ButtonsRow>
             </AddRight>
           </Advertising>

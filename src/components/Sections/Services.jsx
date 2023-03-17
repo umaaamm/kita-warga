@@ -64,14 +64,14 @@ export default function Services() {
                 <p className="font12">
                 Di era digital dan globalisasi kita sebagai warga di lingkungan harus saling membantu sesama dan mebangun lingkungan kearah yang lebih baik, kami hadir untuk membantu dalam segala kebutuhan untuk mengakomodir kebutuhan tersebut.
                 </p>
-                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
+                {/* <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
                     <FullButton title="Mulai" action={() => alert("clicked")} />
                   </div>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Kontak kami" action={() => alert("clicked")} border />
                   </div>
-                </ButtonsRow>
+                </ButtonsRow> */}
               </AddLeft>
               <AddRight>
                 <AddRightInner>
