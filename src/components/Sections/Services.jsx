@@ -62,7 +62,7 @@ export default function Services() {
                 <h4 className="font15 semiBold">Beberapa Kata Tentang KitaWarga</h4>
                 <h2 className="font40 extraBold">Membantu Sesama</h2>
                 <p className="font12">
-                Di era digital dan globalisasi kita sebagai warga di lingkungan harus saling membantu sesama dan mebangun lingkungan kearah yang lebih baik, kami hadir untuk membantu dalam segala kebutuhan untuk mengakomodir kebutuhan tersebut.
+                Di era digital dan globalisasi kita sebagai warga di lingkungan harus saling membantu sesama dan membangun lingkungan kearah yang lebih baik, kami hadir untuk membantu dalam segala kebutuhan untuk mengakomodir kebutuhan tersebut.
                 </p>
                 {/* <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
