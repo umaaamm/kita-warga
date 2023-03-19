@@ -11,10 +11,9 @@ export default function Contact() {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
 
-let noHp = "+6282299256420"
+let noHp = "6281808462252"
   const sendWA = () => {
-    let url = `https://web.whatsapp.com/send?phone=${noHp}`;
-
+    let url = `https://api.whatsapp.com/send?phone=${noHp}`;
     let message = nama + " - " +email +" - " +subject;
       url += `&text=${encodeURI(message)}&app_absent=0`;
       window.open(url);
