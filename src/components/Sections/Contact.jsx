@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 // Assets
-import ContactImg1 from "../../assets/gambarumam.jpeg";
-import ContactImg2 from "../../assets/gambardimas.jpeg";
-import ContactImg3 from "../../assets/gambarf.jpeg";
+import ContactImg1 from "../../assets/DSC06458.JPG";
+import ContactImg2 from "../../assets/DSC06463.JPG";
+import ContactImg3 from "../../assets/DSC06462.JPG";
 
 export default function Contact() {
 
